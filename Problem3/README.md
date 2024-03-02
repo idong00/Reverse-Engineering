@@ -2,7 +2,7 @@
 
 ![01](https://github.com/idong00/ReversingStudy/assets/55074166/a322f244-d2f1-4224-82be-c9abaed6c0eb)
 ### Link : https://dreamhack.io/wargame/challenges/119
-### Tools : x64dbg, PEview
+### Tools : x64dbg, PEview, Visual Studio
 
 # **Solution Process**
 ### 1. dll 파일 동작 확인
