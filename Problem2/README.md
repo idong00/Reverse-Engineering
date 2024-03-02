@@ -1,4 +1,4 @@
-# **rev-basic-0**
+# **rev-basic-1**
 
 ![01](https://github.com/idong00/ReversingStudy/assets/55074166/bb9b9446-a9c9-4572-abbf-8ee86315f813)
 ### Link : https://dreamhack.io/wargame/challenges/15
