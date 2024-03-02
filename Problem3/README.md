@@ -1,6 +1,6 @@
 # **Inject ME!!!**
 
-![01](https://github.com/idong00/ReversingStudy/assets/55074166/a322f244-d2f1-4224-82be-c9abaed6c0eb)
+![01](https://github.com/idong00/ReversingStudy/blob/main/Problem3/Image/01.PNG?raw=true)
 ### Link : https://dreamhack.io/wargame/challenges/119
 ### Tools : x64dbg, PEview, Visual Studio
 
@@ -24,17 +24,17 @@
 	      return 0;
     }
     ```
-    ![02](https://github.com/idong00/ReversingStudy/assets/55074166/3aac741b-838f-4cdc-bcdf-32df8271c373)
+    ![02](https://github.com/idong00/ReversingStudy/blob/main/Problem3/Image/02.PNG?raw=true)
 
 ### 2. 정적 분석 진행
   - #### .rdata 섹션에서 의심스러운 문자열("dreamhack.exe") 확인
-    ![03](https://github.com/idong00/ReversingStudy/assets/55074166/8a6228f4-7c06-4498-b993-3970851a582b)
+    ![03](https://github.com/idong00/ReversingStudy/blob/main/Problem3/Image/03.PNG?raw=true)
   - #### TargetName을 dreamhack으로 변경
-    ![04](https://github.com/idong00/ReversingStudy/assets/55074166/05da93e2-502d-47b9-8bea-87db6560a64a)
+    ![04](https://github.com/idong00/ReversingStudy/blob/main/Problem3/Image/04.PNG?raw=true)
 
 ### 3. 결과
   - #### 정답 출력
-    ![05](https://github.com/idong00/ReversingStudy/assets/55074166/01ee09e2-2a89-4439-9ab1-6092892965e9)
+    ![05](https://github.com/idong00/ReversingStudy/blob/main/Problem3/Image/05.PNG?raw=true)
 
 ### 4. 회고
   - #### 처음 dll 파일을 C++ 코드로 로드했을 때 성공을 반환한 것에 힌트를 얻어 바로 PEview를 확인했어야 했으나 동적분석을 진행하였음. 이는 의미없는 행위였고, 뒤늦게 DllMain에서 조건처리가 있을 것이라 생각하였음.
