@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /* Printable Characters Range */
-constexpr unsigned char MIN_CHAR_VALUE = 32;
-constexpr unsigned char MAX_CHAR_VALUE = 127;
+constexpr unsigned char GMIN_CHAR_VALUE = 32;
+constexpr unsigned char GMAX_CHAR_VALUE = 127;
 
 /* 0x7FF754B03000 */
 constexpr size_t G0x7FF754B03000_SIZE = 18;
@@ -15,7 +15,7 @@ constexpr unsigned char G0x7FF754B03000[G0x7FF754B03000_SIZE] =
 };
 
 /* 0x7FF754B03020 */
-constexpr size_t G0x7FF754B03020_SIZE = 128;
+constexpr size_t G0x7FF754B03020_SIZE = GMAX_CHAR_VALUE + 1;
 constexpr unsigned char G0x7FF754B03020[G0x7FF754B03020_SIZE] =
 {
 	0x63, 0x7C, 0x77, 0x7B, 0xF2, 0x6B, 0x6F, 0xC5, 0x30, 0x01, 0x67, 0x2B, 0xFE, 0xD7, 0xAB, 0x76,
@@ -32,7 +32,7 @@ int main()
 {
 	for (size_t Var_0x7FF754B03000_Idx = 0; Var_0x7FF754B03000_Idx < G0x7FF754B03000_SIZE; ++Var_0x7FF754B03000_Idx)
 	{
-		for (size_t Var_0x7FF754B03020_Idx = MIN_CHAR_VALUE; Var_0x7FF754B03020_Idx < G0x7FF754B03020_SIZE; ++Var_0x7FF754B03020_Idx)
+		for (size_t Var_0x7FF754B03020_Idx = GMIN_CHAR_VALUE; Var_0x7FF754B03020_Idx < G0x7FF754B03020_SIZE; ++Var_0x7FF754B03020_Idx)
 		{
 			if (G0x7FF754B03000[Var_0x7FF754B03000_Idx] == G0x7FF754B03020[Var_0x7FF754B03020_Idx])
 			{
@@ -46,4 +46,4 @@ int main()
 	return 0;
 }
 
-// Replac3_the_w0rld
+// Output : Replac3_the_w0rld

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /* Printable Characters Range */
-constexpr unsigned char MIN_CHAR_VALUE = 32;
-constexpr unsigned char MAX_CHAR_VALUE = 127;
+constexpr unsigned char GMIN_CHAR_VALUE = 32;
+constexpr unsigned char GMAX_CHAR_VALUE = 127;
 
 /* Array of value to compare */
 constexpr size_t GVALUE_TO_COMPARE_ARRAY_SIZE = 21;
@@ -19,7 +19,7 @@ int main()
 {
 	for (size_t ArrayIdx = 0; ArrayIdx < GVALUE_TO_COMPARE_ARRAY_SIZE; ++ArrayIdx)
 	{
-		for (unsigned char Char = MIN_CHAR_VALUE; Char <= MAX_CHAR_VALUE; ++Char)
+		for (unsigned char Char = GMIN_CHAR_VALUE; Char <= GMAX_CHAR_VALUE; ++Char)
 		{
 			const unsigned char MulValue = 0xFB * Char;
 
