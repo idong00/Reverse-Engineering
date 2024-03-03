@@ -16,7 +16,7 @@
   - #### 문자열 비교를 위한 로직 확인
     ![04](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/04.PNG?raw=true)
     
-  - #### 문자를 한개씩 비교하기 위해 오프셋을 증가시키며 문자 한개를 추출
+  - #### 문자를 한 개씩 비교하기 위해 오프셋을 증가시키며 문자 한개를 추출
     ![05](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/05.PNG?raw=true)
     ![06](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/06.PNG?raw=true)
 
@@ -26,7 +26,7 @@
   - #### rdx에 0x7FF79F593000를 대입하고, rdx에 rcx를 더해준 위치를 1바이트만 참조하여 ecx에 대입 후 eax와 ecx 비교. 만약 같은 경우 [rsp]에 있는 값을 1씩 증가시키며 총 21번 반복
     ![08](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/08.PNG?raw=true)
 
-  - #### 처음에는 계산기를 사용하여 문자를 추출. (eax(입력한 문자) * 0xFB) & 0xFF == 0x7FF79F593000 + rcx에서 eax를 알아내기 위해 계산기로 251(0xFB)씩 증가시키며 최하위 1바이트와 일치하는 값을 찾음. 그러나 실수의 여지가 있고, 21개의 문자를 찾아야하기 때문에 코드로 해결하기로 결정
+  - #### 처음에는 계산기를 사용하여 문자를 추출. (eax(입력한 문자) * 0xFB) & 0xFF == 0x7FF79F593000 + rcx에서 eax를 알아내기 위해 계산기로 251(0xFB)씩 증가시키며 최하위 1바이트와 일치하는 값을 찾음. 그러나 실수의 여지가 있고, 21개의 문자를 찾아야하기 때문에 코드를 사용하기로 결정
     ![09](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/09.PNG?raw=true)
     ![10](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/10.PNG?raw=true)
     
