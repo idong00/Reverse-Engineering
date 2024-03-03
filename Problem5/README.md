@@ -2,7 +2,7 @@
 
 ![01](https://github.com/idong00/ReversingStudy/blob/main/Problem5/Image/01.PNG?raw=true)
 ### Link : https://dreamhack.io/wargame/challenges/22
-### Tools : x64dbg
+### Tools : x64dbg, Visual Studio
 
 # **Solution Process**
 ### 1. 실행 파일 동작 확인
