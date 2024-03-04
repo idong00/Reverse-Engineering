@@ -8,3 +8,4 @@
 * [Problem 7 - rev-basic-4](https://github.com/idong00/ReversingStudy/blob/main/Problem7/README.md)
 * [Problem 8 - rev-basic-3](https://github.com/idong00/ReversingStudy/blob/main/Problem8/README.md)
 * [Problem 9 - rev-basic-2](https://github.com/idong00/ReversingStudy/blob/main/Problem9/README.md)
+* [Problem 10 - patch](https://github.com/idong00/ReversingStudy/blob/main/Problem10/README.md)
