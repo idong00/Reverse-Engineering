@@ -10,3 +10,4 @@
 * [Problem 9 - rev-basic-2](https://github.com/idong00/ReversingStudy/blob/main/Problem9/README.md)
 * [Problem 10 - patch](https://github.com/idong00/ReversingStudy/blob/main/Problem10/README.md)
 * [Problem 11 - Easy_CrackMe](https://github.com/idong00/ReversingStudy/blob/main/Problem11/README.md)
+* [Problem 12 - [wargame.kr] DLL with notepad](https://github.com/idong00/ReversingStudy/blob/main/Problem12/README.md)
