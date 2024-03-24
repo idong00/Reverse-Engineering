@@ -26,7 +26,7 @@ constexpr unsigned char G0x7FF757354020[G0x7FF757354020_COUNT] =
 };
 
 constexpr size_t KEY_COUNT = 0x09;
-constexpr unsigned char KEY[KEY_COUNT] = "I_am_KEY";
+constexpr unsigned char GKEY[KEY_COUNT] = "I_am_KEY";
 constexpr size_t GINPUT_STRING_COUNT = 0x18;
 constexpr size_t GINPUT_STRING_OFFSET = 0x08;
 constexpr size_t GMAX_LOOP_COUNT1 = 0x10;
@@ -45,16 +45,16 @@ int main()
 
 	::printf("Input String : %s\n", InputString);
 
-	::Encryption(InputString, KEY);
+	::Encryption(InputString, GKEY);
 
 	::printf("Encryption : %s\n", InputString);
 
-	::Decryption(InputString, KEY);
+	::Decryption(InputString, GKEY);
 
 	::printf("Decryption : %s\n", InputString);
 #else
 	/* 0x7FF757354000 */
-	unsigned char G0x7FF757354000[GINPUT_STRING_COUNT] =
+	unsigned char Var_0x7FF757354000[GINPUT_STRING_COUNT] =
 	{
 		0x7E, 0x7D, 0x9A, 0x8B,
 		0x25, 0x2D, 0xD5, 0x3D,
@@ -64,9 +64,9 @@ int main()
 		0xC4, 0x2A, 0x4F, 0x58
 	};
 
-	::Decryption(G0x7FF757354000, KEY);
-	
-	::printf("Decryption : %s\n", G0x7FF757354000);
+	::Decryption(Var_0x7FF757354000, GKEY);
+
+	::printf("Decryption : %s\n", Var_0x7FF757354000);
 #endif
 
 	return 0;
