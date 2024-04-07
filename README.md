@@ -20,3 +20,4 @@
 * [Problem 19 - You shall not pass](/Problem19/README.md)
 * [Problem 20 - Easy Keygen](/Problem20/README.md)
 * [Problem 21 - power cube](/Problem21/README.md)
+* [Problem 22 - Direct3D FPS](/Problem22/README.md)
