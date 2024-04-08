@@ -1,4 +1,13 @@
-*.exe
-*.dll
-*.html
-*.zip
+# C++
+!*.h
+
+# Python
+!*.py
+
+# readme
+!*.md
+
+# Image
+!*.png
+
+*
