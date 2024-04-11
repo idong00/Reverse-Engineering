@@ -1,4 +1,6 @@
-# ReversingStudy 
+# ReversingStudy
+### Dreamhack Profile: https://dreamhack.io/users/52328/
+
 * [Problem 1 - rev-basic-0](/Problem1/README.md)
 * [Problem 2 - rev-basic-1](/Problem2/README.md)
 * [Problem 3 - Inject ME!!!](/Problem3/README.md)
