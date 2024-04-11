@@ -1,4 +1,9 @@
-*.exe
-*.dll
-*.html
-*.zip
+# Ignore Everything
+*
+
+# Except
+!*/
+!Problem*/**/*.h
+!Problem*/**/*.py
+!Problem*/**/*.png
+!Problem*/**/*.md
