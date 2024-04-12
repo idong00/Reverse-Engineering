@@ -3,7 +3,7 @@
 
 # Except
 !*/
-!Problem*/**/*.h
+!Problem*/**/*.cpp
 !Problem*/**/*.py
 !Problem*/**/*.png
 !Problem*/**/*.md
