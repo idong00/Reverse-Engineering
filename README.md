@@ -36,6 +36,7 @@
   - [021.Problem - CSHOP](/PE/021_Problem/README.md)
   - [022.Problem - CSharp](/PE/022_Problem/README.md)
   - [023.Problem - 2048 Revenge](/PE/023_Problem/README.md)
+  - [024.Problem - Replace](/PE/024_Problem/README.md)
 </details>
 
 <details>
