@@ -1,0 +1,41 @@
+#include <iostream>
+#include <assert.h>
+
+int main()
+{
+	constexpr char MIN_PRINTABLE_CHAR = 0x20;
+	constexpr char MAX_PRINTABLE_CHAR = 0x7E;
+
+	constexpr size_t INPUT_STRING_COUNT = 48;
+	constexpr unsigned char ENC_FLAG[INPUT_STRING_COUNT + 1] =
+	{
+		0x74, 0x78, 0x4B, 0x65, 0x77, 0x48, 0x5C,
+		0x69, 0x68, 0x7E, 0x5C, 0x79, 0x77, 0x62,
+		0x46, 0x79, 0x77, 0x05, 0x46, 0x54, 0x73,
+		0x72, 0x59, 0x69, 0x68, 0x7E, 0x5C, 0x7E,
+		0x5A, 0x61, 0x57, 0x6A, 0x77, 0x66, 0x5A,
+		0x52, 0x02, 0x62, 0x5C, 0x79, 0x77, 0x5C,
+		0x00, 0x7C, 0x57, 0x0D, 0x0D, 0x4D, 0x00
+	};
+
+	unsigned char InputString[INPUT_STRING_COUNT + 1] = { '\0', };
+
+	for (size_t InputStringIdx = 0; InputStringIdx < INPUT_STRING_COUNT; ++InputStringIdx)
+	{
+		for (char Char = MIN_PRINTABLE_CHAR; Char <= MAX_PRINTABLE_CHAR; ++Char)
+		{
+			if (!((Char ^ INPUT_STRING_COUNT) ^ ENC_FLAG[InputStringIdx]))
+			{
+				InputString[InputStringIdx] = Char;
+
+				break;
+			}
+		}
+
+		assert(InputString[InputStringIdx] != '\0');
+	}
+
+	std::cout << InputString;
+
+	return 0;
+}
