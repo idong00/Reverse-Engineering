@@ -46,6 +46,7 @@
   
   - [001.Problem - power cube](/ELF/001_Problem/README.md)
   - [002.Problem - ptrace_block](/ELF/002_Problem/README.md)
+  - [003.Problem - Easy Assembly](/ELF/003_Problem/README.md)
 </details>
 
 <details>
