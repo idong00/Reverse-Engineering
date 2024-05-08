@@ -39,6 +39,7 @@
   - [024.Problem - Replace](/PE/024_Problem/README.md)
   - [025.Problem - x64 Lotto](/PE/025_Problem/README.md)
   - [026.Problem - My_First_Game_v0.1](/PE/026_Problem/README.md)
+  - [027.Problem - PEPassword](/PE/027_Problem/README.md)
 </details>
 
 <details>
